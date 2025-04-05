@@ -30,7 +30,6 @@ Node* inputPolynomial() {
         scanf("%c", &ch);
         if (ch != 'y' && ch != 'Y') break;
     }
-
     return head;
 }
 

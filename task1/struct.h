@@ -1,6 +1,8 @@
 #ifndef DATABASE_H
 #define DATABASE_H
-typedef struct Node{
+
+
+typedef struct Node {
     int multi; //информационное поле для коэффициента перед многочленом
     int degree; //информационное поле для степени многочлена
     struct Node *next; //адресное поле
